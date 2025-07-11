@@ -163,3 +163,16 @@ main{
     margin-bottom: 130px;
  }
 
+ /*Resume Section Style*/
+ .resume-container{
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+ }
+.section-title{
+    text-align: center;
+}
+
+.resume-download-cv{
+    margin-top: 50px;
+}
