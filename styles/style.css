@@ -131,6 +131,7 @@ a:hover{
     margin-top: 130px;
 }
 
+
 /*Main Styles*/
 main{
     max-width: 1140px;
@@ -166,13 +167,46 @@ main{
  /*Resume Section Style*/
  .resume-container{
     display: flex;
-    gap: 30px;
+    gap: 40px;
     justify-content: center;
  }
-.section-title{
+.section-title h3{
     text-align: center;
+   
 }
 
 .resume-download-cv{
     margin-top: 50px;
+}
+
+/*Footer Style*/
+footer{
+    padding: 130px 230px;
+    display: flex;
+    gap: 100px;
+    margin-top: 81px;
+}
+
+.section-title{
+    text-align: left;
+    margin-left: 0;
+}
+
+form input[type="text"],form input[type="email"],
+form textarea{
+    width: 100%;
+    padding: 12px;
+    border-radius: 5px;
+    margin-bottom: 16px;
+    border: none;
+}
+
+form input[type="submit"]{
+    background-color: #FD6E0A;
+    color: white;
+    font-weight: bold;
+    border-radius: 5px;
+    font-size: 20px;
+    padding: 18px;
+    border: none;
 }
