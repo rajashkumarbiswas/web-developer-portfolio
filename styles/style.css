@@ -1,9 +1,9 @@
 /*header*/
-.header{
-    background-image: url('../images/developer.png'),url('../images/header_bg.png');
+.header {
+    background-image: url('../images/developer.png'), url('../images/header_bg.png');
     background-repeat: no-repeat;
-    background-position: top  left,bottom right ;
-    
+    background-position: top left, bottom right;
+
 }
 
 
@@ -11,26 +11,28 @@
 
 
 .open-sans-normal {
-  font-family: "Open Sans", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: <weight>;
-  font-style: normal;
-  font-variation-settings:
-    "wdth" 100;
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+    font-variation-settings:
+        "wdth" 100;
 }
 
 /*Shared style*/
-.secondary-bg{
+.secondary-bg {
     background-color: #FFF8F3;
 }
-.text-primary{
+
+.text-primary {
     color: #FD6E0A;
 }
-.dark-2{
+
+.dark-2 {
     color: #474747;
 }
 
-.btn-primary{
+.btn-primary {
     background-color: #FD6E0A;
     font-size: 20px;
     font-weight: bold;
@@ -40,91 +42,91 @@
     border: none;
 }
 
-.section-title{
+.section-title {
     font-size: 35px;
-    font-weight:bold ;
-    color: #181818 ;
+    font-weight: bold;
+    color: #181818;
 }
 
-.section-description{
+.section-description {
     font-size: 18px;
-    color: #757575 ;
+    color: #757575;
 }
 
-.text-center{
+.text-center {
     text-align: center;
 }
 
 
 
 /* Nav styles */
-nav{
+nav {
     display: flex;
     align-items: center;
     justify-content: space-between;
     margin: 20px 200px;
 }
 
-.nav-title{
-    font: weight 800; 
+.nav-title {
+    font: weight 800;
     font-size: 45px;
 }
 
-nav ul{
+nav ul {
     display: flex;
     gap: 27px;
     align-items: center;
 }
 
-nav ul li{
+nav ul li {
     list-style: none;
 }
 
-nav ul li a{
+nav ul li a {
     text-decoration: none;
     font-size: 20px;
-    
+
 }
 
 /*banner styles*/
 
-.banner{
+.banner {
     display: flex;
     justify-content: space-between;
     margin: 0 35px 0 200px;
 }
 
-.banner-content{
-   max-width: 585px; 
+.banner-content {
+    max-width: 585px;
 }
 
-.bannner-greetings{
-    font-size:  45px;
+.bannner-greetings {
+    font-size: 45px;
     font-weight: 600;
 }
 
-.banner-title{
-    font-weight: bold ;
+.banner-title {
+    font-weight: bold;
     font-size: 85px;
     white-space: nowrap;
 }
 
-.banner-description{
+.banner-description {
     font-size: 18px;
 }
 
-.banner-images-picture{
+.banner-images-picture {
     width: 584px;
     height: 600px;
 }
 
 
-a:hover{
+a:hover {
     color: blue;
 }
 
 /*About Styles*/
-.about{
+.about {
     border-radius: 10px;
     padding: 130px 150px;
     text-align: center;
@@ -133,67 +135,69 @@ a:hover{
 
 
 /*Main Styles*/
-main{
+main {
     max-width: 1140px;
     margin: 0 auto;
- }
+}
 
- .about-items{
+.about-items {
     display: flex;
-    justify-content:space-between ;
- }
+    justify-content: space-between;
+}
 
- .item-description{
-    font-weight:600;
- }
+.item-description {
+    font-weight: 600;
+}
 
- /*Skills Section*/
- .skills-container{
+/*Skills Section*/
+.skills-container {
     display: flex;
     gap: 24px;
- }
+}
 
- .skills{
+.skills {
     padding: 30px;
-    box-shadow: 0px 6px 50px rgba(255, 255, 255, 1) ;
+    box-shadow: 0px 6px 50px rgba(255, 255, 255, 1);
     border-radius: 5px;
- }
+}
 
- main section{
+main section {
     margin-top: 130px;
     margin-bottom: 130px;
- }
+}
 
- /*Resume Section Style*/
- .resume-container{
+/*Resume Section Style*/
+.resume-container {
     display: flex;
     gap: 40px;
     justify-content: center;
- }
-.section-title h3{
-    text-align: center;
-   
 }
 
-.resume-download-cv{
+.section-title h3 {
+    text-align: center;
+
+}
+
+.resume-download-cv {
     margin-top: 50px;
 }
 
 /*Footer Style*/
-footer{
+footer {
     padding: 130px 230px;
     display: flex;
     gap: 100px;
     margin-top: 81px;
 }
 
-.section-title{
+.section-title {
     text-align: left;
     margin-left: 0;
 }
 
-form input[type="text"],form input[type="email"],
-form textarea{
+form input[type="text"],
+form input[type="email"],
+form textarea {
     width: 100%;
     padding: 12px;
     border-radius: 5px;
@@ -201,7 +205,7 @@ form textarea{
     border: none;
 }
 
-form input[type="submit"]{
+form input[type="submit"] {
     background-color: #FD6E0A;
     color: white;
     font-weight: bold;
@@ -209,4 +213,15 @@ form input[type="submit"]{
     font-size: 20px;
     padding: 18px;
     border: none;
+}
+
+/*Responsive Media Query*/
+.hide {
+    display: none;
+}
+
+@media screen and (max-width: 576px) {
+    .skills-container {
+        flex-direction: column;
+    }
 }
