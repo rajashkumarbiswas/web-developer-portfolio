@@ -224,13 +224,84 @@ form input[type="submit"] {
 
     .skills-container,
     .resume-container,
-    
-    footer,
-    .about-items {
+    .banner footer,
+    .about-items,
+    .banner-images-picture {
         flex-direction: column;
+
+    }
+     nav {
+        flex-direction: column; /* vertical layout */
+        align-items: center;
+        margin: 10px;
     }
 
-    footer,.about {
+    .nav-title {
+        font-size: 28px; /* smaller font */
+        text-align: center;
+    }
+
+ 
+
+    nav ul {
+        flex-direction: column; /* vertical menu items */
+        gap: 15px;
+        margin-top: 10px;
+    }
+
+    nav ul li a,
+    nav ul li button {
+        font-size: 16px; /* smaller text */
+        padding: 8px 12px;
+    }
+
+    .btn-primary {
+        width: 80%; /* button responsive */
+        text-align: center;
+    }
+
+     .banner {
+        flex-direction: column;    /* vertical layout */
+        align-items: center;       /* centered */
+        margin: 20px;              /* small margin */
+    }
+
+    .banner-content {
+        max-width: 100%;
+        text-align: center;        /* text centered */
+    }
+
+    .banner-greetings {
+        font-size: 25px;           /* smaller font */
+    }
+
+    .banner-title {
+        font-size: 35px;
+        white-space: normal;       /* wrap text */
+    }
+
+    .banner-description {
+        font-size: 16px;
+        padding: 0 10px;           /* padding for smaller screens */
+    }
+
+    .banner-images-picture {
+        width: 100%;               /* full width */
+        height: auto;              /* maintain aspect ratio */
+        margin-top: 20px;          /* spacing below text */
+    }
+
+    .btn-primary {
+        width: 80%;               /* buttons responsive */
+        margin: 10px 0;
+    }
+
+    .header {
+        background-image: none;
+    }
+
+    footer,
+    .about {
         padding: 20px;
     }
 
@@ -242,5 +313,34 @@ form input[type="submit"] {
     form input[type="email"],
     form textarea {
         width: calc(100% - 40px);
+    }
+
+      footer {
+        flex-direction: column;  /* vertical layout */
+        gap: 30px;               /* column spacing */
+        padding: 30px 20px;      /* small padding */
+        align-items: center;     /* center all columns */
+    }
+
+    .footer-column {
+        text-align: center;  /* text + icons centered */
+        width: 100%;
+    }
+
+    .footer-column .section-title {
+        font-size: 22px;      /* smaller title */
+        margin-bottom: 15px;
+    }
+
+    .footer-column p {
+        font-size: 14px;      /* smaller paragraph */
+        line-height: 1.5;
+    }
+
+
+    /*Social Icon Responsive*/
+    .footer-column div a img {
+        width: 35px;      /* smaller icon */
+        margin: 0 5px;    /* spacing between icons */
     }
 }
